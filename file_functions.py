@@ -10,7 +10,8 @@ from os import listdir, path
 from datetime import datetime
 from math import sqrt
 
-ERROR_FILE = "5001_puzzle.err"
+ERROR_FILE = "./Logs/error_log.err"
+PUZZLE_DIR = "./Puzzles"
 
 
 def log_error(error_message, print_to_console=False):
@@ -29,7 +30,7 @@ def log_error(error_message, print_to_console=False):
 def find_puzzles():
     """Return a list of all .puz files in the game directory"""
     puzzle_list = []
-    for each in listdir():
+    for each in listdir(PUZZLE_DIR):
         if each[-4:] == ".puz":
             puzzle_list.append(each)
     return puzzle_list
@@ -61,7 +62,7 @@ def load_puzzle(filename):
     """
     try:
         metadata = {}
-        with open(filename, mode='r') as in_file:
+        with open(path.join(PUZZLE_DIR, filename), mode='r') as in_file:
             for line in in_file:
                 key, value = line.strip("\n").split(": ")
                 # process puzzle's number of tiles

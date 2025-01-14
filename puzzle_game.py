@@ -37,7 +37,7 @@ def start_game(startup=True):
 def main():
     """Initiates the Tile Swap Game program; displays SplashScreen, then starts game"""
     SplashScreen("Resources/splash_screen.gif", 449, 373)
-    turtle.ontimer(start_game, 2000)
+    turtle.ontimer(start_game, 500)
     turtle.mainloop()
 
 

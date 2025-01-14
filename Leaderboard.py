@@ -10,7 +10,7 @@ from file_functions import log_error
 from TextTurtle import TextTurtle
 from gui import BOARD_SIZE, INNER_BORDER, OUTER_BORDER, WINDOW_HEIGHT
 
-LEADERBOARD_FILE = "leaderboard.log"
+LEADERBOARD_FILE = "./Logs/leaderboard.log"
 
 
 class Leaderboard:
@@ -92,8 +92,6 @@ class Leaderboard:
         with open(LEADERBOARD_FILE, mode='w') as out_file:
             for each in self.leaderboard:
                 out_file.write(f"{str(each)}\n")
-        pass
-
 
 class Score:
     """
