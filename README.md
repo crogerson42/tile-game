@@ -34,7 +34,7 @@ The primary driving function of my program is the overarching Gameboard class's 
 
 ### Graphics Reskins:
 
-**\> "file_warning_9.gif"** - reskin of "file_warning.gif" to reflect that a maximum of 9 puzzle thumbnails can be shown in the 3x3 grid of my load menu GUI
+**\> "file_warning_9.gif"** - reskin of "file_warning.gif" to reflect that a maximum of 9 puzzle thumbnails can be shown in the 3x3 grid of my load menu GUI <br/>
 **\> "loadotherbutton.gif"** - reskin of "loadbutton.gif" to allow access to a secondary, text-based load function instead of the default GUI
 
 ## ---- Instructions for use ----
