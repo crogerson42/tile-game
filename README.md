@@ -1,8 +1,8 @@
-## Christian Rogerson
-
-## Fall 2022
-
 # Tile Game Project
+
+**Christian Rogerson
+Fall 2022
+**
 
 ---- Overview: ----
 
