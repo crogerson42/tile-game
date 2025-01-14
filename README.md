@@ -16,24 +16,25 @@ The primary driving function of my program is the overarching Gameboard class's 
 ---- Source Files: ----
 
 Python Files:
-\> puzzle_game.py - location of "main()"; creates Gameboard object
-\> Gameboard.py - contains all other objects and data; handles clicks and decision-making; drives program
 
-\> LoadMenu.py - contains all loaded puzzle data, and can represent puzzle choices graphically
-\> Leaderboard.py - reads, graphically represents, and saves score information
-\> TileSet.py - contains all game tiles, knows where they are, and performs actions on them
+**\> puzzle_game.py** - location of "main()"; creates Gameboard object
+**\> Gameboard.py** - contains all other objects and data; handles clicks and decision-making; drives program
 
-\> Tile.py - an ImageTurtle that can move around the game grid
-\> Button.py - an ImageTurtle that can register being clicked on
-\> ImageTurtle.py - a basic turtle displaying an image
+**\> LoadMenu.py** - contains all loaded puzzle data, and can represent puzzle choices graphically
+**\> Leaderboard.py** - reads, graphically represents, and saves score information
+**\> TileSet.py** - contains all game tiles, knows where they are, and performs actions on them
 
-\> TextTurtle.py - a basic turtle that can write
-\> gui.py - contains functions and classes to create GUI elements; also contains all GUI-defining constants
-\> file_functions.py - functions to log errors, load puzzles, and search directory for valid puzzles
+**\> Tile.py** - an ImageTurtle that can move around the game grid
+**\> Button.py** - an ImageTurtle that can register being clicked on
+**\> ImageTurtle.py** - a basic turtle displaying an image
+
+**\> TextTurtle.py** - a basic turtle that can write
+**\> gui.py** - contains functions and classes to create GUI elements; also contains all GUI-defining constants
+**\> file_functions.py** - functions to log errors, load puzzles, and search directory for valid puzzles
 
 Graphics Reskins:
-\> "file_warning_9.gif" - reskin of "file_warning.gif" to reflect that a maximum of 9 puzzle thumbnails can be shown in the 3x3 grid of my load menu GUI
-\> "loadotherbutton.gif" - reskin of "loadbutton.gif" to allow access to a secondary, text-based load function instead of the default GUI
+**\> "file_warning_9.gif"** - reskin of "file_warning.gif" to reflect that a maximum of 9 puzzle thumbnails can be shown in the 3x3 grid of my load menu GUI
+**\> "loadotherbutton.gif"** - reskin of "loadbutton.gif" to allow access to a secondary, text-based load function instead of the default GUI
 
 ---- Instructions for use ----
 
